@@ -1,6 +1,29 @@
-# 🚀 AI Dev Tasks Template for Cursor 🤖
+# 🚀 AI Dev Tasks & Agent Management Template for Cursor 🤖
 
-**Note: This is a template repository. Clone this to start new projects with structured AI development workflow.**
+**This project is a comprehensive template for managing AI agents, tasks, and workflows in the [Cursor](https://www.cursor.so/) editor, with seamless database integration.**
+
+## What is this project for?
+
+This repository provides a robust foundation for building, managing, and automating AI-driven development workflows directly in Cursor. It enables you to:
+
+- **Manage AI Agents and Task Lists:** Organize, assign, and track tasks for AI agents step-by-step, ensuring clarity and control throughout the development process.
+- **Automate Feature Development:** Use structured Product Requirement Documents (PRDs) and granular task breakdowns to guide AI agents from idea to implementation.
+- **Integrate with Databases:** Effortlessly connect your workflows to PostgreSQL and MySQL databases, allowing agents to inspect schemas, analyze data, and generate reports in real time.
+- **Boost Productivity:** Reduce manual overhead, prevent context loss, and ensure repeatable, high-quality results by leveraging reusable rules and commands.
+- **Adapt to Any Project:** Integrate this template into any codebase or team workflow, regardless of tech stack, thanks to its modular and extensible design.
+
+## Who is it for?
+- **Developers and teams** using Cursor who want to supercharge their AI-assisted workflows.
+- **Product managers and tech leads** seeking structured, auditable, and collaborative AI-driven development.
+- **Anyone** who needs reliable agent management, task tracking, and database-aware automation in their software projects.
+
+## Typical Use Cases
+- End-to-end feature development with AI, from PRD to code review.
+- Managing complex, multi-step tasks for multiple agents.
+- Generating, executing, and verifying database queries and reports.
+- Integrating AI-driven insights into existing codebases with minimal friction.
+
+---
 
 ## 🎯 How to Use This Template
 
