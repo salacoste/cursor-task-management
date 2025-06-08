@@ -363,4 +363,31 @@ This script downloads the latest version of this repository and copies all files
 - It does **not** copy any git history or .git/.github folders, so it is safe to use in projects with their own git repositories.
 - All output and comments are in English for maximum compatibility.
 
+## 🌍 Global Installation of the Integration Script
+
+To make the integration script available globally from any directory, follow these steps:
+
+### 1. Copy the Script to a Global Location
+For example, copy it to your home directory:
+```bash
+cp integrate-cursor-template.sh ~/.integrate-cursor-template.sh
+chmod +x ~/.integrate-cursor-template.sh
+```
+
+### 2. Add an Alias to Your Shell Configuration
+Add the following line to your `~/.zshrc` (or `~/.bashrc` if you use bash):
+```bash
+echo 'alias cursor_integrate="~/.integrate-cursor-template.sh"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+### 3. Usage
+Now you can run the script from anywhere:
+```bash
+cursor_integrate /path/to/your/target/project
+```
+
+> **Note:** The script will always integrate files from the official repository:
+> https://github.com/salacoste/cursor-task-management
+
 --- 
